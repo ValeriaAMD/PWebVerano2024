@@ -1,0 +1,21 @@
+{
+    "nombres":"Valeria Carolina",
+    "apellido_paterno":"Campos",
+    "apellido_materno":"Hernandez",
+    "edad":22,
+    "celular":4651190280,
+    "materia":"Programación web",
+    "materia_modalidad":"verano",
+    "series_favoritas":[
+        "Sweet home",
+        "Start-Up",
+        "Twenty five Twenty one",
+        "the last of us","The Office"],
+
+    "artistas_favoritos":[
+        {"AURORA":"ExistForLove"},
+        {"Sabino":"BienDelPuerco"},
+        {"TokishaYROSALIA":"LINDA"},
+        {"EMINEM":"WithoutMe"},
+        {"PitBull":"FireBall"}]
+}

@@ -1,0 +1,55 @@
+body{
+    background-color: antiquewhite;
+}
+
+/** las clases van con . los id con # y 
+cuando no llevan anada son las etiquetas**/
+
+/** TITULOS **/
+
+.TITULO{
+    font-size: 30px;
+    color: midnightblue;
+    font-style:initial;
+    text-align: center;
+}
+
+#img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+
+.link{
+    color: white;
+    text-decoration: none;
+}
+
+.lista{
+    display: flex;
+    justify-content: left;
+    color: indianred ;
+}
+
+
+.tabla{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: orangered;
+}
+
+#inic{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: indianred;
+    font-family: Segoe UI Semibold;
+}

@@ -1,0 +1,35 @@
+<xml:1>
+    <nombres>Valeria Carolina</nombres>
+    <apellido_paterno>Campos</apellido_paterno>
+    <apellido_materno>Hernandez</apellido_materno>
+    <edad>22</edad>
+    <celular>4651190280</celular>
+    <materia> Programacion web
+    <modalidad_materia>verano</modalidad_materia>
+    </materia>
+    <series_favoritas>
+        <serie>Sweet home</serie>
+        <serie>Twenty five Twenty one</serie>
+        <serie>the last of us</serie>
+        <serie>The Office</serie>
+        <serie>Start-Up</serie>
+    </series_favoritas>
+    <artistas_favoritos>
+        <artista>
+            <nombre>AURORA</nombre>
+                <cancion>ExistForLove</cancion>
+            
+            <nombre>Sabino</nombre>
+                <cancion>BienDelPuerco</cancion>
+                
+            <nombre>TokishaYROSALIA</nombre>
+                <cancion>LINDA</cancion>
+                
+            <nombre>EMINEM</nombre>
+                <cancion>WithoutMe</cancion>
+                
+            <nombre>PitBull</nombre>
+                <cancion>FireBall</cancion>
+        </artista>
+    </artistas_favoritos>
+</xml:1>

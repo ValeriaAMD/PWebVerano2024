@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primer formulario</title>
+</head>
+<body>
+    <form action="https://www.youtube.com/" method="post">
+        <br>
+        Ingrese su nombre:
+        <input type="text" name="Nombre" placeholder="Nombre o nombres" required>
+        <br>
+        Ingrese su edad:
+        <input type="number" name="edad" placeholder="^18" required>
+        <br>
+        Ingrese su telefono celular:
+        <input type="number" name="telefono" placeholder="4651190280" pattern="[0-9]{3}-[0-9]{7}" required>
+        <br>
+        Correo:
+        <input type="email" name="correo electronico" placeholder="itpa123@gmail.com" required>
+        <br>
+        contraseña:
+        <input type="password" name="contraseña" required>
+        <br>
+        Fecha de nacimiento:
+        <input type="date" name="nacimiento">
+        <br>
+        selecciona los lenguajes de programación que conoces: <br>
+        <input type="checkbox" name="lenguaje">Java <br>
+        <input type="checkbox" name="lenguaje">JavaScript <br>
+        <input type="checkbox" name="lenguaje">TypeScript <br>
+        <input type="checkbox" name="lenguaje">Python <br>
+        <input type="checkbox" name="lenguaje">PHP <br>
+        <input type="checkbox" name="lenguaje">Ruby <br>
+        seleccion el nivel maximo de estudios que tiene: <br>
+        <input type="radio" name="estudios" value="1"> sin estudios <br>
+        <input type="radio" name="estudios" value="2"> primaria <br>
+        <input type="radio" name="estudios" value="3"> secundaria <br>
+        <input type="radio" name="estudios" value="4"> preparatoria <br>
+        selecciona una opcion:
+        <br>
+        <select name="opciones">
+            <option value="1">Op 1</option>
+            <option value="2">Op 2</option>
+            <option value="3">Op 3</option>
+        </select>
+        <br>
+        <input type="submit" value="enviar datos">
+    </form>
+</body>
+</html>

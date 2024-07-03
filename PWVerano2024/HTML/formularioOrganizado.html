@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Segundo formulario organizado</title>
+</head>
+<body>
+    <form action="mailto:caro.campos251201@gmail.com" method="post" target="_blank">
+        <fieldset>
+            <legend>Información personal</legend>
+            Ingrese su nombre:
+        <input type="text" name="Nombre" placeholder="Nombre o nombres" required>
+        <br>
+        Ingrese su edad:
+        <input type="number" name="edad" placeholder="^18" required>
+        <br>
+        Ingrese su telefono celular:
+        <input type="number" name="telefono" placeholder="4651190280" pattern="[0-9]{3}-[0-9]{7}" required>
+        <br>
+        Correo:
+        <input type="email" name="correo electronico" placeholder="itpa123@gmail.com" required>
+        <br>
+        contraseña:
+        <input type="password" name="contraseña" required>
+        <br>
+        Fecha de nacimiento:
+        <input type="date" name="nacimiento">
+        <br>
+        <select name="Municipios" id="">
+            <option value="1" id="1">Aguascalientes</option>
+            <option value="2" id="2">Jesus Maria</option>
+            <option value="3" id="2">Calvillo</option>
+            <option value="4" id="4">El Llano</option>
+            <option value="5" id="5">San Francisco de los Romo</option>
+            <option value="6" id="6">Cosio</option>
+            <option value="7" id="7">Pabellón de Artreaga</option>
+            <option value="8" id="8">Rincon de Romos</option>
+            <option value="9" id="9">Tepezala</option>
+            <option value="10" id="10">San Jose</option>
+            <option value="11" id="11">Asientos</option>
+        </select>
+        </fieldset>
+        <fieldset>
+            <legend>Información adicional</legend>
+            selecciona los lenguajes de programación que conoces: <br>
+        <input type="checkbox" name="lenguaje">Java <br>
+        <input type="checkbox" name="lenguaje">JavaScript <br>
+        <input type="checkbox" name="lenguaje">TypeScript <br>
+        <input type="checkbox" name="lenguaje">Python <br>
+        <input type="checkbox" name="lenguaje">PHP <br>
+        <input type="checkbox" name="lenguaje">Ruby <br>
+        seleccion el nivel maximo de estudios que tiene: <br>
+        <input type="radio" name="estudios" value="1"> sin estudios <br>
+        <input type="radio" name="estudios" value="2"> primaria <br>
+        <input type="radio" name="estudios" value="3"> secundaria <br>
+        <input type="radio" name="estudios" value="4"> preparatoria <br>
+        </fieldset>
+        <br>
+        <input type="submit" value="enviar datos">
+    </form>
+</body>
+</html>

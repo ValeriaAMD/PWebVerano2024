@@ -1,0 +1,72 @@
+body{
+    background-color: #F9B0FF;
+}
+/**TITULOS Y SUBTITULOS**/
+.TITULO1{
+    color: #ffffff;
+    font-style: Bahnschrift;
+}
+.Subtitulo1{
+    color: #B500C4;
+}
+.Subtitulo2 {
+    color: #B500C4;
+}
+.Subtitulo3 {
+    color: #B500C4;
+}
+.Subtitulo4{
+    color: #B500C4;
+}
+/**LISTA ORDENADA**/
+.Listaordenada{
+    box-shadow: 25px 25px 20px #9C65FC;
+    border-top-left-radius: 45px;
+    background-color: #7649AC;
+    width: 200px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+#lis{
+    color: #D9CEE6;
+}
+#lisor{
+    color: beige; 
+}
+/**LISTADESORDENADA**/
+.Listadesordenada{
+    box-shadow: 25px 25px 20px #9C65FC;
+    border-top-right-radius: 45px;
+    background-color: #7649AC;
+    width: 200px;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#lista{
+    color: #D9CEE6;
+}
+/**TABLA1**/
+
+#title{
+
+    background-color: #623A90;
+}
+#Semestres{
+    background-color: #CD7ECD;
+}
+#califica{
+    background-color: #D76BD7;
+}
+/*TABLA2*/
+#titulos{
+    background-color: #B16BD7;
+}
+#subtitulos{
+    background-color: #F460ED;
+}
+#Informacion{
+    background-color: #AE60F4;
+}
