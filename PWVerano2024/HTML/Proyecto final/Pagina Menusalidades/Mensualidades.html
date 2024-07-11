@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="sMens.css">
+  <title>Mensualidad Camazotz</title>
+</head>
+<body>
+  <div>
+    <div class="logo">
+      <img src="../img/logo.jpg" alt="logo" width="100" height="100" >
+  </div>
+    <nav>
+      <ul class="navbar">
+      <a href="#signup" class="link"">Registro de alumnos</a>
+      <a href="#login" class="link"">Mensualidades</a>
+      <a href="#login" class="link"">Ventas</a>
+      <a href="#login" class="link"">Clases</a>
+      <a href="#login" class="link"">Calendario</a>
+      </ul>
+    </nav>
+  </div>
+    <div class="form">
+      <br>
+      <br>
+          <form class="login-form">
+            <p class="login-text">
+              <span class="fa-stack fa-lg">
+                <i class="fa fa-circle fa-stack-2x"></i>
+                <i class="fa fa-lock fa-stack-1x"></i>
+              </span>
+            </p>
+            <input type="nombre" class="login-username" autofocus="true" placeholder="id_Alumno" />
+            <input type="submit" name="Buscar" value="Buscar" class="btnM" />
+            <br>
+            <br>
+            <br>
+            <table align="center">
+                <tbody>
+                    <tr>
+                        <td height="80" width="90" class="campos" id="lila">Enero</td >
+                        <td height="80" width="90" class="campos" id="lila">Febrero</td >
+                        <td height="80" width="90" class="campos" id="lila">Marzo</td >
+                        <td height="80" width="90" class="campos" id="lila">Abril</td >
+                        <td height="80" width="90" class="campos" id="lila">Mayo</td >
+                        <td height="80" width="90" class="campos" id="lila">Junio</td >
+                    </tr>
+                    <tr>
+                        <td height="80" width="90" class="campos" id="lila">Julio</td >
+                        <td height="80" width="90" class="campos" id="lila">Agosto</td >
+                        <td height="80" width="90" class="campos" id="purple">Septiembre</td >
+                        <td height="80" width="90" class="campos" id="purple">Ocutubre</td >
+                        <td height="80" width="90" class="campos" id="purple">Noviembre</td >
+                        <td height="80" width="90" class="campos" id="purple">Diciembre</td>
+                    </tr>
+                </tbody>
+            </table>
+            <br>
+            <br>
+            <input type="date" class="login-username" required="true" placeholder="Mes a pagar" />
+            <input type="number" class="login-username" required="true" placeholder="$"/>
+            <input type="submit" name="Pagar" value="Pagar" class="btnM" />
+
+          </form>
+        
+  </div> <!-- /form -->
+</body>
+</html>
