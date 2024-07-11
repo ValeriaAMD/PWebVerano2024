@@ -1,0 +1,32 @@
+#recuadro1 {
+    border-radius: 40px;
+    background-color: #ff0;
+    width: 200px;
+    height: 100px;
+    padding: 8px;
+    animation-name: animacion1;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  
+  #recuadro1:hover {
+    animation-play-state: paused; 
+  }
+  
+  @keyframes animacion1 {
+    from {
+      border-radius: 40px;
+      background-color: #ff0;
+    }
+    to {
+      border-radius: 0px;
+      background-color: #ddd;
+    }
+  }
+  
+  body {
+    background: white;
+    margin: 50px;
+  }
+  
